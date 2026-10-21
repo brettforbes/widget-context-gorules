@@ -2,7 +2,7 @@
 
 Embeddable project-context iframe for SPEC-020. Governance and the execution plan live in `AGENTS.md`; product behavior is specified in the spiderfeet repository at `.governance/specs/SPEC-020-gorules-project-context.md`.
 
-The webpack prototype below remains only until W1 replaces it.
+The React shell is the application entry. The dev server listens on port 4011 so it does not collide with Composer on port 4001. Editor isolation limits are recorded in `.governance/project/W1_COMPATIBILITY.md`.
 
 ## Installation
 
@@ -22,7 +22,7 @@ Run the development server:
 npm start
 ```
 
-You can view the development server at [http://localhost:4001](http://localhost:4001).
+You can view the development server at [http://localhost:4011](http://localhost:4011).
 
 ### Production build
 

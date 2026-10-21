@@ -1,0 +1,54 @@
+html,
+body,
+#context-root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #f4f6f8;
+  color: #1d2430;
+}
+
+.shell {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100%;
+}
+
+.shell-bar {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  background: #16324f;
+  color: #fff;
+}
+
+.shell-stage {
+  min-height: 0;
+  padding: 1rem;
+}
+
+.shell-placeholder {
+  margin: 0;
+}
+
+.shell-summaries {
+  display: flex;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem 1rem;
+}
+
+.shell-summaries button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 10rem;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #c5ced8;
+  border-radius: 0.4rem;
+  background: #fff;
+  cursor: pointer;
+}
