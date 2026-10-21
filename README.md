@@ -1,6 +1,8 @@
-# Teamplate iFrame Widget
+# SpiderFeet Context GoRules
 
-This teamplate is mean to be used to create new experiences that can be included using iFrames into other application and websites.
+Embeddable project-context iframe for SPEC-020. Governance and the execution plan live in `AGENTS.md`; product behavior is specified in the spiderfeet repository at `.governance/specs/SPEC-020-gorules-project-context.md`.
+
+The webpack prototype below remains only until W1 replaces it.
 
 ## Installation
 
